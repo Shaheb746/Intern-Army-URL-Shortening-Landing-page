@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+     background: url("https://media.istockphoto.com/id/1433540156/photo/ai-network-plexus-technology-background-3d-illustration.jpg?s=612x612&w=0&k=20&c=f3Ha1DCgD7KPjHHJ7vcR21E8K4hCuRJmnt-mGgXBz_A=");
+    /* background-position: 0 ; */
+    background-repeat: no-repeat;
+    background-image: fill;
+    background-size: cover;
+}
+.container {
+    background: linear-gradient(to top left, #9bd1e8, #0b40edfa) ;
+    padding: 1.2rem;
+    width: 450px;
+    border-radius: 6px;
+}
+h1 {
+    margin: 1rem 0;
+    text-align: center;
+    color: #fff;
+}
+input {
+    width: 100%;
+    padding: .9rem;
+    margin: 1.2rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #000fff;
+    color: #fff;
+    padding: .7rem .9rem;
+    border: none;
+    border-radius: 50rem;
+    cursor: pointer;
+    transition: all .2s linear;
+    position: relative;
+    left: 36%;
+}
+button:hover {
+    background-color: #1515e8;
+}
+#result {
+    margin-top: 10px;
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+h1{
+    font-size: larger;
+}
+@media (max-width:450px) {
+    .container {
+        width: 90vw;
+    }
+    .input {
+        margin: 8px 0;
+        
+    }
+    #result {
+        font-size: 5vw;
+    }
+    button {
+        position: relative;
+        left: 27%;
+    }
+    
+}
